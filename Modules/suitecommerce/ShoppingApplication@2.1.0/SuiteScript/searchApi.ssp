@@ -1,0 +1,31 @@
+<%/*
+	© 2016 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/%>
+
+<%
+	if(session.isLoggedIn2())
+	{
+		var params = request.getAllParameters()
+		,	paramstring = ''
+		for ( param in params )
+		{
+			//We've got to disable passwordProtectedSite and loginToSeePrices features if customer registration is disabled.
+			//Note that this condition is expressed with 'registrationmandatory' property being 'T'
+			var isRegistrationDisabled = session.getSiteSettings(['registration']).registration.registrationmandatory === 'T';
+
+			// We remove the first 2 underscore for the getAllParameters
+			// This is made for avoiding a double redirect. See Utilities\Javascript\Utils.js : addParamsToUrl
+			var param_name = !isRegistrationDisabled && (SC.Configuration.loginToSeePrices || SC.Configuration.passwordProtectedSite) && param.indexOf('__') === 0 ? param.substring(2) : param;
+			paramstring += (param_name + '=' + params[param]) + '&';
+		}
+		return nlapiSetRedirectURL('EXTERNAL','/api/items?'+paramstring);
+	}
+	else
+	{
+		var Application = require('Application');
+		Application.sendError(sessionTimedOutError);
+	}
+%>
