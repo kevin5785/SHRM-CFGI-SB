@@ -1,0 +1,3 @@
+define('menu_tree.tpl', ['Handlebars','Handlebars.CompilerNameLookup'], function (Handlebars, compilerNameLookup){ var template = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  return " <div class=\"menu-tree\" data-type=\"menu-tree-root\" data-view=\"MenuItems.Collection\"></div>";
+},"useData":true}); template.Name = 'menu_tree'; return template;});

@@ -1,0 +1,3 @@
+define('order_history_details_shipped_items.tpl', ['Handlebars','Handlebars.CompilerNameLookup'], function (Handlebars, compilerNameLookup){ var template = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  return " <div class=\"order-history-details-shipped-items-carousel\"><div data-type=\"backbone.collection.view.cell\"></div></div>";
+},"useData":true}); template.Name = 'order_history_details_shipped_items'; return template;});

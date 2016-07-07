@@ -1,0 +1,21 @@
+define('order_wizard_non_shippable_items_module.tpl', ['Handlebars','Handlebars.CompilerNameLookup'], function (Handlebars, compilerNameLookup){ var template = Handlebars.template({"1":function(depth0,helpers,partials,data) {
+  var helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
+  return " <div class=\"order-wizard-non-shippable-items-module\"><div class=\"order-wizard-non-shippable-items-module-accordion-divider\"><div class=\"order-wizard-non-shippable-items-module-accordion-head\"><a class=\"order-wizard-non-shippable-items-module-accordion-head-toggle-secondary collapsed\" data-toggle=\"collapse\" data-target=\"#accordion-body-nonshipable-items\" aria-expanded=\"true\" aria-controls=\"accordion-body-nonshipable-items\"><div class=\"order-wizard-non-shippable-items-module-accordion-head-title-container\"><span class=\"order-wizard-non-shippable-items-module-accordion-head-info\"> "
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Items that don't require shipping", {"name":"translate","hash":{},"data":data})))
+    + " </span><i class=\"order-wizard-non-shippable-items-module-accordion-toggle-icon-secondary\"></i><span class=\"order-wizard-non-shippable-items-module-accordion-head-count\"> "
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "$(0) Products", (depth0 != null ? compilerNameLookup(depth0,"nonShippableLinesLength") : depth0), {"name":"translate","hash":{},"data":data})))
+    + " </span></div></a></div><div class=\"order-wizard-non-shippable-items-module-accordion-body collapse\" id=\"accordion-body-nonshipable-items\" role=\"tabpanel\" data-target=\"accordion-body-nonshipable-items\"><div class=\"order-wizard-non-shippable-items-module-accordion-container\" data-content=\"order-items-body\"><div class=\"order-wizard-non-shippable-items-module-multishipto-package\"><table class=\"order-wizard-non-shippable-items-module-headers-table\"><thead class=\"order-wizard-non-shippable-items-module-headers-table-header\"><tr><th class=\"order-wizard-non-shippable-items-module-header-img\"></th><th class=\"order-wizard-non-shippable-items-module-header-details\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Product", {"name":"translate","hash":{},"data":data})))
+    + "</th><th class=\"order-wizard-non-shippable-items-module-header-unit-price\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Unit Price", {"name":"translate","hash":{},"data":data})))
+    + "</th><th class=\"order-wizard-non-shippable-items-module-header-qty\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Qty", {"name":"translate","hash":{},"data":data})))
+    + "</th><th class=\"order-wizard-non-shippable-items-module-header-amount\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Amount", {"name":"translate","hash":{},"data":data})))
+    + "</th></tr></thead><tbody data-view=\"NonShippableItems.Collection\"></tbody></table></div></div></div></div></div> ";
+},"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  var stack1, buffer = " ";
+  stack1 = compilerNameLookup(helpers,"if").call(depth0, (depth0 != null ? compilerNameLookup(depth0,"showNonShippableLines") : depth0), {"name":"if","hash":{},"fn":this.program(1, data),"inverse":this.noop,"data":data});
+  if (stack1 != null) { buffer += stack1; }
+  return buffer;
+},"useData":true}); template.Name = 'order_wizard_non_shippable_items_module'; return template;});

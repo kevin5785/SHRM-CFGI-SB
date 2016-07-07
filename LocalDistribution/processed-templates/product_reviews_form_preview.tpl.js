@@ -1,0 +1,10 @@
+define('product_reviews_form_preview.tpl', ['Handlebars','Handlebars.CompilerNameLookup','facets_item_cell_list.tpl'], function (Handlebars, compilerNameLookup){ var template = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  var stack1, helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, buffer = " <div class=\"product-reviews-form-preview\"><h1>";
+  stack1 = ((helper = (helper = compilerNameLookup(helpers,"header") || (depth0 != null ? compilerNameLookup(depth0,"header") : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"header","hash":{},"data":data}) : helper));
+  if (stack1 != null) { buffer += stack1; }
+  return buffer + "</h1><div class=\"product-reviews-form-preview-divider-desktop\"></div><div class=\"product-reviews-form-preview-divider\"></div><div class=\"product-reviews-form-preview-item-cell\"><div data-view=\"Facets.ItemCell\" data-template=\"facets_item_cell_list\"></div></div><div class=\"product-reviews-form-preview-content\"><form><div class=\"product-reviews-form-preview-main\"><div data-view=\"ProductReviews.Preview\"></div></div><div class=\"product-reviews-form-preview-actions\"><button type=\"button\" class=\"product-reviews-form-preview-actions-button-submit\" data-action=\"save\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Submit Review", {"name":"translate","hash":{},"data":data})))
+    + "</button><button type=\"button\" class=\"product-reviews-form-preview-actions-button-edit\" data-action=\"edit\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Edit Review", {"name":"translate","hash":{},"data":data})))
+    + "</button></div></form></div></div>";
+},"useData":true}); template.Name = 'product_reviews_form_preview'; return template;});

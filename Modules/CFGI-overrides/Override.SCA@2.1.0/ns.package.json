@@ -1,0 +1,10 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/SCA@2.1.0/JavaScript/SC.Configuration.js": "JavaScript/SC.Configuration.js"
+    }
+}

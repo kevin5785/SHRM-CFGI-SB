@@ -1,0 +1,25 @@
+define('profile_update_password.tpl', ['Handlebars','Handlebars.CompilerNameLookup'], function (Handlebars, compilerNameLookup){ var template = Handlebars.template({"1":function(depth0,helpers,partials,data) {
+  var helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
+  return " <a href=\"/\" class=\"profile-update-password-button-back\"><i class=\"profile-update-password-button-back-icon\"></i> "
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Back to Account", {"name":"translate","hash":{},"data":data})))
+    + " </a> ";
+},"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  var stack1, helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, buffer = " ";
+  stack1 = compilerNameLookup(helpers,"if").call(depth0, (depth0 != null ? compilerNameLookup(depth0,"showBackToAccount") : depth0), {"name":"if","hash":{},"fn":this.program(1, data),"inverse":this.noop,"data":data});
+  if (stack1 != null) { buffer += stack1; }
+  return buffer + " <section class=\"profile-update-password\"><h2 class=\"profile-update-password-form-title\">"
+    + escapeExpression(((helper = (helper = compilerNameLookup(helpers,"pageHeader") || (depth0 != null ? compilerNameLookup(depth0,"pageHeader") : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"pageHeader","hash":{},"data":data}) : helper)))
+    + "</h2><div data-type=\"alert-placeholder\"></div><div class=\"profile-update-password-form-area\"><form class=\"profile-update-password-form\"><fieldset><small class=\"profile-update-password-form-label\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Required", {"name":"translate","hash":{},"data":data})))
+    + " <span class=\"profile-update-password-form-group-label-required\">*</span></small><div class=\"profile-update-password-form-group\" data-input=\"current_password\" data-validation=\"control-group\"><label class=\"profile-update-password-form-group-label\" for=\"current_password\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Current Password", {"name":"translate","hash":{},"data":data})))
+    + " <span class=\"profile-update-password-form-group-label-required\">*</span></label><div  class=\"profile-update-password-group-form-controls\" data-validation=\"control\"><input type=\"password\" class=\"profile-update-password-form-group-input\" id=\"current_password\" name=\"current_password\" value=\"\"></div></div><div class=\"profile-update-password-form-group\" data-input=\"password\" data-validation=\"control-group\"><label class=\"profile-update-password-form-group-label\" for=\"password\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "New Password", {"name":"translate","hash":{},"data":data})))
+    + " <span class=\"profile-update-password-form-group-label-required\">*</span></label><div  class=\"profile-update-password-group-form-controls\" data-validation=\"control\"><input type=\"password\" class=\"profile-update-password-form-group-input\" id=\"password\" name=\"password\" value=\"\"></div></div><div class=\"profile-update-password-form-group\" data-input=\"confirm_password\" data-validation=\"control-group\"><label class=\"profile-update-password-form-group-label\" for=\"confirm_password\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Confirm Password", {"name":"translate","hash":{},"data":data})))
+    + " <span class=\"profile-update-password-form-group-label-required\">*</span></label><div  class=\"profile-update-password-group-form-controls\" data-validation=\"control\"><input type=\"password\" class=\"profile-update-password-form-group-input\" id=\"confirm_password\" name=\"confirm_password\" value=\"\"></div></div></fieldset><div class=\"profile-update-password-form-actions\"><button type=\"submit\" class=\"profile-update-password-form-actions-update\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Update", {"name":"translate","hash":{},"data":data})))
+    + "</button><button type=\"reset\" class=\"profile-update-password-form-actions-reset hide\" data-action=\"reset\">"
+    + escapeExpression(((compilerNameLookup(helpers,"translate") || (depth0 && compilerNameLookup(depth0,"translate")) || helperMissing).call(depth0, "Reset", {"name":"translate","hash":{},"data":data})))
+    + "</button></div></form></div></section>";
+},"useData":true}); template.Name = 'profile_update_password'; return template;});

@@ -1,0 +1,3 @@
+define('header_simplified.tpl', ['Handlebars','Handlebars.CompilerNameLookup'], function (Handlebars, compilerNameLookup){ var template = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  return " <nav class=\"header-simplified-header\"><div class=\"header-simplified-header-logo\" data-view=\"Header.Logo\"></div><div id=\"banner-header-top\" class=\"content-banner banner-header-top\" data-cms-area=\"simplified_header_banner\" data-cms-area-filters=\"global\"></div></nav>";
+},"useData":true}); template.Name = 'header_simplified'; return template;});

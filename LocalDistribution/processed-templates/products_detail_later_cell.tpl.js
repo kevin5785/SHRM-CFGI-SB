@@ -1,0 +1,3 @@
+define('products_detail_later_cell.tpl', ['Handlebars','Handlebars.CompilerNameLookup'], function (Handlebars, compilerNameLookup){ var template = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  return " <div class=\"products-detail-later-cell\"><div data-type=\"backbone.collection.view.cell\"></div></div>";
+},"useData":true}); template.Name = 'products_detail_later_cell'; return template;});
