@@ -148,7 +148,9 @@
         "third_parties/twitter-typeahead": "0.10.5",
         "third_parties/underscore.js": "1.7.0",
 
+        "CFGI-overrides/Override.Header": "1.1.0",
         "CFGI-overrides/Override.SCA": "2.1.0"
+
     },
     "tasksConfig": {
         "local": {

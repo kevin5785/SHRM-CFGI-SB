@@ -57,15 +57,15 @@
 		<link rel="shortcut icon" href="<%= session.getAbsoluteUrl("checkout", "img/favicon.ico") %>" />
 
 		<!--[if !IE]><!-->
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css/myaccount.css') %>?t=1467914965297">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css/myaccount.css') %>?t=1467933179486">
 		<!--<![endif]-->
 
 		<!--[if lte IE 9]>
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount_4.css?t=1467914965297') %>">
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount_3.css?t=1467914965297') %>">
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount_2.css?t=1467914965297') %>">
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount_1.css?t=1467914965297') %>">
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount.css?t=1467914965297') %>">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount_4.css?t=1467933179486') %>">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount_3.css?t=1467933179486') %>">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount_2.css?t=1467933179486') %>">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount_1.css?t=1467933179486') %>">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/myaccount.css?t=1467933179486') %>">
 		<![endif]-->
 
 		<!--[if lt IE 9]>
@@ -76,11 +76,11 @@
 		<%= (siteType && siteType === 'STANDARD') ? getPageFullHead() : '' %>
 		<script>
 var SC=window.SC={ENVIRONMENT:{jsEnvironment:typeof nsglobal==='undefined'?'browser':'server'},isCrossOrigin:function(){return'<%= Environment.currentHostString %>'!==document.location.hostname},isPageGenerator:function(){return typeof nsglobal!=='undefined'},getSessionInfo:function(key){var session=SC.SESSION||SC.DEFAULT_SESSION||{};return key?session[key]:session},getPublishedObject:function(key){return SC.ENVIRONMENT&&SC.ENVIRONMENT.published&&SC.ENVIRONMENT.published[key]?SC.ENVIRONMENT.published[key]:null}}		</script>
-		<script src="<%= session.getAbsoluteUrl('checkout', 'myaccount.environment.ssp?lang=' + Language + '&cur=' + Currency) %>&t=1467914965297"></script>
+		<script src="<%= session.getAbsoluteUrl('checkout', 'myaccount.environment.ssp?lang=' + Language + '&cur=' + Currency) %>&t=1467933179486"></script>
 		<% if (Error) { %>
 		<script>SC.ENVIRONMENT.contextError = <%= JSON.stringify(Error) %>;</script>
 		<% } %>
-		<script src="<%= session.getAbsoluteUrl('checkout', 'javascript/myaccount.js') %>?t=1467914965297"></script>
+		<script src="<%= session.getAbsoluteUrl('checkout', 'javascript/myaccount.js') %>?t=1467933179486"></script>
 
 		<% if (SC.Configuration.useCMS) { %>
 			<script src="/cms/2/assets/js/postframe.js"></script>

@@ -203,7 +203,7 @@ define(
 
 
 		// @property {String} logoUrl header will show an image with the url you set here
-	,	logoUrl: _.getAbsoluteUrl('img/SCA_Logo.png')
+	,	logoUrl: _.getAbsoluteUrl('../site/images/cfgi-logo.png')
 
 		// @property {String} defaultSearchUrl
 	,	defaultSearchUrl: 'search'
