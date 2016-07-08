@@ -1,9 +1,3 @@
-/*
-	© 2016 NetSuite Inc.
-	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
-	provided, however, if you are an authorized user with a NetSuite account or log-in, you
-	may use this code subject to the terms that govern your access and use.
-*/
 
 // @module Header
 define(
@@ -12,6 +6,7 @@ define(
 		'Profile.Model'
 	,	'SC.Configuration'
 	,	'Header.Menu.MyAccount.View'
+	,	'SiteSearch.View'
 
 	,	'header_profile.tpl'
 
@@ -24,6 +19,7 @@ define(
 		ProfileModel
 	,	Configuration
 	,	HeaderMenuMyAccountView
+	,	SiteSearchView
 
 	,	header_profile_tpl
 
@@ -59,6 +55,11 @@ define(
 			'Header.Menu.MyAccount': function ()
 			{
 				return new HeaderMenuMyAccountView(this.options);
+			}
+
+		,	'SiteSearch': function()
+			{
+				return new SiteSearchView();
 			}
 		}
 

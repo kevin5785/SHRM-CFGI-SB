@@ -1,9 +1,3 @@
-/*
-	© 2016 NetSuite Inc.
-	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
-	provided, however, if you are an authorized user with a NetSuite account or log-in, you
-	may use this code subject to the terms that govern your access and use.
-*/
 
 .header-profile-welcome-link,
 .header-profile-login-link,
@@ -67,12 +61,41 @@
 
 .header-profile-menu-login li{
 	display:inline-block;
+	float: left;
 }
 
 .header-profile-login-icon{
 	@extend .fa;
 	@extend %fa-user;
 	font-size: $sc-h4-font-size;
+}
+
+.header-profile-login-link,
+.header-profile-register-link,
+.header-profile-login-link:hover,
+.header-profile-register-link:hover {
+	color: #fff;
+	border: 1px solid #fff;
+	line-height: 21px;
+	height: 42px;
+}
+.header-profile-register-link {
+	background: $chathams-blue;
+	border-radius: 19.5px 0 0 19.5px;
+	padding: 8px 12px 8px 16px;
+	border-right-width: 0;
+}
+.header-profile-register-link:hover {
+	background: $eden;
+	border-right-width: 0;
+}
+.header-profile-login-link {
+	background: $vermilion;
+	border-radius: 0 19.5px 19.5px 0;
+	padding: 8px 16px 8px 12px;
+}
+.header-profile-login-link:hover {
+	background: $trinidad;
 }
 
 //////////////////////////////////////////////////////////
@@ -119,3 +142,16 @@
 
 .header-profile-loading-icon{}
 .header-profile-loading-indicator{}
+
+// Custom
+
+.header-menu-profile {
+	.header-site-search {
+		//display: inline-block;
+		width: 292px;
+	}
+	.site-search-content {
+		width: 100%;
+	}
+
+}

@@ -1,9 +1,3 @@
-{{!
-	© 2016 NetSuite Inc.
-	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
-	provided, however, if you are an authorized user with a NetSuite account or log-in, you
-	may use this code subject to the terms that govern your access and use.
-}}
 
 {{#if showExtendedMenu}}
 	<a class="header-profile-welcome-link" href="#" data-toggle="dropdown">
@@ -24,22 +18,21 @@
 		{{#if showLogin}}
 			<div class="header-profile-menu-login-container">
 				<ul class="header-profile-menu-login">
-					<li>
-						<i class="header-profile-login-icon"></i>
-					</li>
-					<li>
-						<a class="header-profile-login-link" data-touchpoint="login" data-hashtag="login-register" href="#">
-							{{translate 'Login'}}
-						</a>
-					</li>
 					{{#if showRegister}}
-						<li> | </li>
 						<li>
 							<a class="header-profile-register-link" data-touchpoint="register" data-hashtag="login-register" href="#">
-								{{translate 'Register'}}
+								{{translate 'Join CFGI'}}
 							</a>
 						</li>
 					{{/if}}
+						<li>
+                            <a class="header-profile-login-link" data-touchpoint="login" data-hashtag="login-register" href="#">
+                                {{translate 'Log In'}}
+                            </a>
+                        </li>
+                        <li>
+                            <div class="header-site-search" data-view="SiteSearch" data-type="SiteSearch"></div>
+                        </li>
 				</ul>
 			</div>
 		{{/if}}

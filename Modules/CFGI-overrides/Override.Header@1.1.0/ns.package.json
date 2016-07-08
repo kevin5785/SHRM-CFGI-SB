@@ -14,7 +14,10 @@
         ]
     },
     "overrides": {
+        "suitecommerce/Header@1.1.0/Templates/header_profile.tpl": "Templates/header_profile.tpl",
         "suitecommerce/Header@1.1.0/Sass/_header.scss": "Sass/_header.scss",
-        "suitecommerce/Header@1.1.0/Sass/_header-logo.scss": "Sass/_header-logo.scss"
+        "suitecommerce/Header@1.1.0/Sass/_header-profile.scss": "Sass/_header-profile.scss",
+        "suitecommerce/Header@1.1.0/Sass/_header-logo.scss": "Sass/_header-logo.scss",
+        "suitecommerce/Header@1.1.0/JavaScript/Header.Profile.View.js": "JavaScript/Header.Profile.View.js"
     }
 }
