@@ -42,8 +42,8 @@
 	<!--<![endif]-->
 
 	<!--[if lte IE 9]>
-		<link rel="stylesheet" href="<%= ROOT %>css_ie/shopping_1.css?t=1467933179554" ></link>
-		<link rel="stylesheet" href="<%= ROOT %>css_ie/shopping.css?t=1467933179554" ></link>
+		<link rel="stylesheet" href="<%= ROOT %>css_ie/shopping_1.css?t=1467996289394" ></link>
+		<link rel="stylesheet" href="<%= ROOT %>css_ie/shopping.css?t=1467996289394" ></link>
 	<![endif]-->
 
 	<!--[if lt IE 9]>
@@ -81,8 +81,8 @@ var SC=window.SC={ENVIRONMENT:{jsEnvironment:typeof nsglobal==='undefined'?'brow
 	<script src="/cms/2/assets/js/postframe.js"></script>
 <% } %>
 
-<script src="<%= session.getAbsoluteUrl("shopping", "shopping.environment.ssp?lang=" + Language + "&cur=" + Currency) %>&t=1467933179554" ></script>
-<script type="text/javascript" src="<%= ROOT %>languages/shopping_<%=Language%>.js?t=1467933179554" ></script>
+<script src="<%= session.getAbsoluteUrl("shopping", "shopping.environment.ssp?lang=" + Language + "&cur=" + Currency) %>&t=1467996289394" ></script>
+<script type="text/javascript" src="<%= ROOT %>languages/shopping_<%=Language%>.js?t=1467996289394" ></script>
 <script type="text/javascript" src="<%= ROOT %>javascript/require.js" data-main="<%= ROOT %>javascript/shopping.js" ></script>
 <script type="text/javascript">
 if (!window.require)

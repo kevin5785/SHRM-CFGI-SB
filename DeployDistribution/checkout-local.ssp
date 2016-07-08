@@ -97,9 +97,9 @@
 		<!--<![endif]-->
 
 		<!--[if lte IE 9]>
-			<link rel="stylesheet" href="<%= ROOT %>css_ie/checkout_2.css?t=1467933179442"></link>
-			<link rel="stylesheet" href="<%= ROOT %>css_ie/checkout_1.css?t=1467933179442"></link>
-			<link rel="stylesheet" href="<%= ROOT %>css_ie/checkout.css?t=1467933179442"></link>
+			<link rel="stylesheet" href="<%= ROOT %>css_ie/checkout_2.css?t=1467996289322"></link>
+			<link rel="stylesheet" href="<%= ROOT %>css_ie/checkout_1.css?t=1467996289322"></link>
+			<link rel="stylesheet" href="<%= ROOT %>css_ie/checkout.css?t=1467996289322"></link>
 		<![endif]-->
 
 		<!--[if lt IE 9]>

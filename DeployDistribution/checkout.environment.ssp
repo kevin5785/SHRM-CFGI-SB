@@ -219,7 +219,7 @@ document.documentElement.className = (SC.ENVIRONMENT.isTouchEnabled) ? "touch" :
 
 // Include Language Files
 <% if (Environment && Environment.currentLanguage && Environment.currentLanguage.locale && Environment.currentLanguage.locale !== 'en') { %>
-	document.write('<script src="<%= session.getAbsoluteUrl('checkout', 'languages/checkout_' + Environment.currentLanguage.locale + '.js') %>?t=1467933179439"><\\/' + 'script' + '>');
+	document.write('<script src="<%= session.getAbsoluteUrl('checkout', 'languages/checkout_' + Environment.currentLanguage.locale + '.js') %>?t=1467996289310"><\\/' + 'script' + '>');
 <% } %>
 
 

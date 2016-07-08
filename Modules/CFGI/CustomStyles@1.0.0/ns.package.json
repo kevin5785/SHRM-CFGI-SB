@@ -1,0 +1,8 @@
+{
+  "gulp": {
+    "sass": [
+      "CustomBaseSass/*.scss"
+    ,   "CustomSass/*.scss"
+    ]
+  }
+}

@@ -149,7 +149,9 @@
         "third_parties/underscore.js": "1.7.0",
 
         "CFGI-overrides/Override.Header": "1.1.0",
-        "CFGI-overrides/Override.SCA": "2.1.0"
+        "CFGI-overrides/Override.SCA": "2.1.0",
+
+        "CFGI/CustomStyles": "1.0.0"
 
     },
     "tasksConfig": {
@@ -609,6 +611,14 @@
                             ]
                         },
                         {
+                            "module": "CustomStyles",
+                            "include": [
+                                "variables",
+                                "placeholders",
+                                "mixins"
+                            ]
+                        },
+                        {
                             "module": "BaseSassStyles",
                             "include": [
                                 "main-variables",
@@ -689,7 +699,8 @@
                         "SiteSearch",
                         "SocialSharing",
                         "CMSadapter",
-                        "RequestQuoteAccessPoints"
+                        "RequestQuoteAccessPoints",
+                        "CustomStyles"
                     ]
                 },
                 {
@@ -706,6 +717,14 @@
                             "module": "twitter-bootstrap-sass",
                             "include": [
                                 "variables"
+                            ]
+                        },
+                        {
+                            "module": "CustomStyles",
+                            "include": [
+                                "variables",
+                                "placeholders",
+                                "mixins"
                             ]
                         },
                         {
@@ -839,7 +858,8 @@
                                 "product-list-new",
                                 "product-list-edit-item"
                             ]
-                        }
+                        },
+                        "CustomStyles"
                     ]
                 },
                 {
@@ -870,6 +890,14 @@
                             "module": "font-awesome",
                             "include": [
                                 "font-awesome"
+                            ]
+                        },
+                        {
+                            "module": "CustomStyles",
+                            "include": [
+                                "variables",
+                                "placeholders",
+                                "mixins"
                             ]
                         },
                         {
@@ -948,7 +976,8 @@
                                 "header-logo"
                             ]
                         },
-                        "Footer"
+                        "Footer",
+                        "CustomStyles"
                     ]
                 }
             ]

@@ -33,15 +33,31 @@ $sc-sidebar-size: 246px;
 .header-main-nav {
 	@extend .container;
 	min-height: $sc-main-nav-height;
-	background-color: $sc-color-theme-background-light;
+	//background-color: $sc-color-theme-background-light;
 
 	@media (min-width: $screen-md-min) {
 		background-color: #fff;
 	}
+
 }
 
 .header-content {
 	@extend .clearfix;
+	background: url($url-header-circles) no-repeat right top;
+	background-size: 60% auto;
+
+
+	@media (min-width: $screen-lg) {
+		background-size: 65% auto;
+	}
+
+	@media (min-width: $screen-md) {
+		padding: $sc-base-padding * 4 $sc-base-padding * 3 $sc-base-padding * 8;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		background: none;
+	}
 }
 ///////////////////////////////////////////////////////////////
 //header logo

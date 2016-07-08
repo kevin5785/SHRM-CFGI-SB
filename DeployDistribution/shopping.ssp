@@ -35,12 +35,12 @@
 <head>
 
 	<!--[if !IE]><!-->
-		<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'css/shopping.css') %>?t=1467933179538">
+		<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'css/shopping.css') %>?t=1467996289365">
 	<!--<![endif]-->
 
 	<!--[if lte IE 9]>
-		<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'css_ie/shopping_1.css') %>?t=1467933179538">
-		<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'css_ie/shopping.css') %>"?t=1467933179538>
+		<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'css_ie/shopping_1.css') %>?t=1467996289365">
+		<link rel="stylesheet" href="<%= session.getAbsoluteUrl('shopping', 'css_ie/shopping.css') %>"?t=1467996289365>
 	<![endif]-->
 
 	<!--[if lt IE 9]>
@@ -71,9 +71,9 @@
 <script>
 var SC=window.SC={ENVIRONMENT:{jsEnvironment:typeof nsglobal==='undefined'?'browser':'server'},isCrossOrigin:function(){return'<%= Environment.currentHostString %>'!==document.location.hostname},isPageGenerator:function(){return typeof nsglobal!=='undefined'},getSessionInfo:function(key){var session=SC.SESSION||SC.DEFAULT_SESSION||{};return key?session[key]:session},getPublishedObject:function(key){return SC.ENVIRONMENT&&SC.ENVIRONMENT.published&&SC.ENVIRONMENT.published[key]?SC.ENVIRONMENT.published[key]:null}};if(!history.pushState&&SC.ENVIRONMENT.jsEnvironment==='browser'&&(location.pathname!=='/'||location.search!=='')&&location.hash===''){if(location.pathname==='/'){var hash=(RegExp('fragment='+'(.+?)(&|$)').exec(location.search)||[,''])[1];location.replace(location.pathname+location.search+'/#'+unescape(hash))}else{location.replace('/#'+location.pathname+location.search)}document.write('')}if(SC.isPageGenerator()){var metas=document.head.getElementsByTagName('meta');for(var i=0;i<metas.length;i++){if(metas[i].getAttribute('content')==='nofollow,noindex'){document.head.removeChild(metas[i])}}}if(!SC.isCrossOrigin()){document.getElementById('main').innerHTML='';if(SC.isPageGenerator()){document.body.className=document.body.className+' seo-support'}SC.ENVIRONMENT.seoSupport=!!~document.body.className.indexOf('seo-support');if(SC.isPageGenerator()){SC.ENVIRONMENT.PROFILE={}}if(SC.ENVIRONMENT.jsEnvironment==='browser'&&!SC.isCrossOrigin()){var datetime=new Date().getTime();var e=document.getElementsByTagName('script')[0];var d=document.createElement('script');d.src='<%= session.getAbsoluteUrl("shopping", "shopping.user.environment.ssp?lang=" + Language + "&cur=" + Currency) %>&t='+datetime+'';d.type='text/javascript';d.async=true;d.defer=true;e.parentNode.insertBefore(d,e)}}</script>
 
-<script src="<%= session.getAbsoluteUrl("shopping", "shopping.environment.ssp?lang=" + Language + "&cur=" + Currency) %>&t=1467933179538" ></script>
-<script src="<%= session.getAbsoluteUrl("shopping", "languages/shopping_" + Language + ".js") %>?t=1467933179538"></script>
-<script src="<%= session.getAbsoluteUrl("shopping", "javascript/shopping.js") %>?t=1467933179538"></script>
+<script src="<%= session.getAbsoluteUrl("shopping", "shopping.environment.ssp?lang=" + Language + "&cur=" + Currency) %>&t=1467996289365" ></script>
+<script src="<%= session.getAbsoluteUrl("shopping", "languages/shopping_" + Language + ".js") %>?t=1467996289365"></script>
+<script src="<%= session.getAbsoluteUrl("shopping", "javascript/shopping.js") %>?t=1467996289365"></script>
 
 <% if (SC.Configuration.useCMS) { %>
 	<script src="/cms/2/assets/js/postframe.js"></script>

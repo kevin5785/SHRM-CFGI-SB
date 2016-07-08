@@ -1,6 +1,9 @@
 
 @import "../font-awesome/font-awesome";
 @import "../twitter-bootstrap-sass/variables";
+@import "../CustomStyles/variables";
+@import "../CustomStyles/placeholders";
+@import "../CustomStyles/mixins";
 @import "../BaseSassStyles/main-variables";
 @import "../twitter-bootstrap-sass/mixins";
 @import "../twitter-bootstrap-sass/normalize";
@@ -235,3 +238,6 @@
 @import "../ProductList/product-list-lists";
 @import "../ProductList/product-list-new";
 @import "../ProductList/product-list-edit-item";
+@import "../CustomStyles/mixins";
+@import "../CustomStyles/placeholders";
+@import "../CustomStyles/variables";

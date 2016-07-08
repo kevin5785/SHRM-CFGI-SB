@@ -14,8 +14,9 @@
 	width: 90%;
 	vertical-align: middle;
 
-	@media (min-width: $screen-md-min) {
+	@media (max-width: $screen-sm-max) {
 		width: auto;
+		height: 50px;
 	}
 }
 

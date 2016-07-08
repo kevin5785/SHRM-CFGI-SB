@@ -42,6 +42,7 @@ $sc-sidebar-size: 246px;
 
 .header-content {
 	@extend .clearfix;
+	background: url($url-header-circles);
 }
 ///////////////////////////////////////////////////////////////
 //header logo

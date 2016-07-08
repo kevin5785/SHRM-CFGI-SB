@@ -15,6 +15,9 @@
 @import "../twitter-bootstrap-sass/tooltip";
 @import "../twitter-bootstrap-sass/utilities";
 @import "../font-awesome/font-awesome";
+@import "../CustomStyles/variables";
+@import "../CustomStyles/placeholders";
+@import "../CustomStyles/mixins";
 @import "../BaseSassStyles/main-variables";
 @import "../BaseSassStyles/main-atoms";
 @import "../BaseSassStyles/main-molecules";
@@ -126,3 +129,6 @@
 @import "../SocialSharing/social-sharing-flyout";
 @import "../CMSadapter/cms-landing-page";
 @import "../RequestQuoteAccessPoints/requestquote-accesspoints-headerlink";
+@import "../CustomStyles/mixins";
+@import "../CustomStyles/placeholders";
+@import "../CustomStyles/variables";

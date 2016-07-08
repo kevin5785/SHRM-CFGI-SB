@@ -14,6 +14,7 @@
         ]
     },
     "overrides": {
+        "suitecommerce/Header@1.1.0/Sass/_header.scss": "Sass/_header.scss",
         "suitecommerce/Header@1.1.0/Sass/_header-logo.scss": "Sass/_header-logo.scss"
     }
 }
