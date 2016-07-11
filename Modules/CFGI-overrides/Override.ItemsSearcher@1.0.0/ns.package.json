@@ -9,5 +9,8 @@
         "templates": [
             "Templates/*"
         ]
+    },
+    "overrides": {
+        "suitecommerce/ItemsSearcher@1.0.0/Templates/itemssearcher.tpl": "Templates/itemssearcher.tpl"
     }
 }

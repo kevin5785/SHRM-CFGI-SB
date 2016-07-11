@@ -150,6 +150,8 @@
 
         "CFGI-overrides/Override.Header": "1.1.0",
         "CFGI-overrides/Override.SCA": "2.1.0",
+        "CFGI-overrides/Override.SiteSearch": "2.1.0",
+        "CFGI-overrides/Override.ItemsSearcher": "1.0.0",
 
         "CFGI/CustomStyles": "1.0.0"
 

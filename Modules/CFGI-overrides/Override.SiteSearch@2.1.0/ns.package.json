@@ -9,5 +9,9 @@
         "templates": [
             "Templates/*"
         ]
+    },
+    "overrides": {
+        "suitecommerce/SiteSearch@2.1.0/Templates/site_search.tpl": "Templates/site_search.tpl",
+        "suitecommerce/SiteSearch@2.1.0/Sass/_site-search.scss": "Sass/_site-search.scss"
     }
 }

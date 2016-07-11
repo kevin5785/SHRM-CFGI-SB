@@ -54,8 +54,8 @@
 					</button>
 				</div>
 
-				<div class="header-menu-quote" data-view="RequestQuoteWizardHeaderLink">
-				</div>
+				<!--<div class="header-menu-quote" data-view="RequestQuoteWizardHeaderLink">
+				</div>-->
 
 				<div class="header-menu-cart">
 					<div class="header-menu-cart-dropdown" >
