@@ -30,7 +30,8 @@
                                 {{translate 'Log In'}}
                             </a>
                         </li>
-                        <li>
+                        <li></li>
+                        <li class="site-search-item">
                             <div class="header-site-search" data-view="SiteSearch" data-type="SiteSearch"></div>
                         </li>
 				</ul>
