@@ -1,0 +1,24 @@
+
+.shopping-layout {
+	@extend %sc-layout;
+}
+
+.shopping-layout-header {
+  //@include box-shadow(3px 0px 6px $sc-color-secondary);
+  margin-bottom: $sc-base-margin * 5;
+}
+
+.shopping-layout-footer {
+	@extend %sc-footer;
+}
+
+.shopping-layout-breadcrumb {
+	@extend .container;
+}
+
+.shopping-layout-no-javascript-msg {
+	@extend .message-warning; 
+	width: 100%;
+}
+
+.shopping-layout-content{}

@@ -67,23 +67,28 @@
 	line-height: $sc-secondary-menu-height;
 	padding: 0 $sc-base-padding*2;
 	margin-right: $sc-base-margin;
-	color:$sc-color-secondary;
+	//color:$sc-color-secondary;
+	color: #fff;
     font-weight:$sc-font-weight-semibold;
     text-transform: uppercase;
+	font-size: 20px;
 }
 
 .header-menu-level1-anchor:hover{
-	color: $sc-color-link-hover;
+	//color: $sc-color-link-hover;
+	color: #fff;
+	background: $chathams-blue-dark;
 }
 
 .open .header-menu-level1-anchor{
-	color: $sc-color-dark-copy;
+	//color: $sc-color-dark-copy;
+	color: #fff;
 }
 
 .header-menu-home-anchor,
 .header-menu-shop-anchor{
 	@extend .header-menu-level1-anchor;
-	color:$sc-color-secondary;
+	//color:$sc-color-secondary;
 }
 
 //maxi menu level 2

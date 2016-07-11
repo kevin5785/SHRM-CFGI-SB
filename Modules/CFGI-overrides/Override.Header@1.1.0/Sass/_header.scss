@@ -8,7 +8,7 @@
 $sc-main-nav-height: 68px;
 $sc-main-nav-width: 130px;
 $sc-main-nav-link-height: 44px;
-$sc-secondary-menu-height: 55px;
+$sc-secondary-menu-height: /*55px*/ 75px;
 $sc-sidebar-size: 246px;
 
 .header-message {
@@ -241,19 +241,22 @@ $sc-sidebar-size: 246px;
 	bottom: 0;
 	left: - $sc-sidebar-size;
 	width: $sc-sidebar-size;
-	background-color: $sc-color-theme-background;
+	//background-color: $sc-color-theme-background;
+	background-color: $chathams-blue;
 	// z-index: 1000;
 
 	@media (min-width: $screen-md-min) {
 		position: relative;
-		background-color: $sc-color-theme-background-light;
+		//background-color: $sc-color-theme-background-light;
+		//background-color: $chathams-blue;
 		top: auto;
 		bottom: auto;
 		left: auto;
 		width: auto;
-		height: $sc-secondary-menu-height;
-		border-top: 1px solid $sc-color-theme-border;
-		border-bottom: 1px solid $sc-color-theme-border;
+		//height: $sc-secondary-menu-height;
+		height: 75px;
+		//border-top: 1px solid $sc-color-theme-border;
+		//border-bottom: 1px solid $sc-color-theme-border;
 	}
 }
 
