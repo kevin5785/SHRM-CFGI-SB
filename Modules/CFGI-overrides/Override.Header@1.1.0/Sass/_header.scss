@@ -28,6 +28,10 @@ $sc-sidebar-size: 246px;
 
 .header-main-wrapper {
 	position: relative;
+
+	@media (max-width: $screen-sm-max) {
+		border-bottom: 4px solid $astral;
+	}
 }
 
 .header-main-nav {
@@ -69,29 +73,45 @@ $sc-sidebar-size: 246px;
 ///////////////////////////////////////////////////////////////
 //header sidebar toggle
 .header-sidebar-toggle-wrapper {
-	margin-top: ($sc-main-nav-height - $sc-main-nav-link-height) / 2;
-	margin-bottom: ($sc-main-nav-height - $sc-main-nav-link-height) / 2;
+	//margin-top: ($sc-main-nav-height - $sc-main-nav-link-height) / 2;
+	//margin-bottom: ($sc-main-nav-height - $sc-main-nav-link-height) / 2;
 	margin-right: $sc-base-margin * 3;
 	float: left;
 
 	@media(min-width: $screen-md-min) {
 		display: none;
 	}
+
+	@media (max-width: 404px) and (min-width: 359px) {
+		margin-right: 0;
+	}
 }
 
 .header-sidebar-toggle {
 	@extend .icon-button-secondary;
-	width: $sc-target-size;
-	height: $sc-target-size;
+	//width: $sc-target-size;
+	//height: $sc-target-size;
 	text-align:center;
+	padding: 21px 20px;
+	line-height: 28px;
+	color: #fff;
+	text-transform: uppercase;
+	background: $chathams-blue;
+
+	@media (max-width: 404px) {
+		padding: 21px 5px;
+	}
 }
 
 .header-sidebar-toggle-icon {
 	@extend .fa;
 	@extend %fa-bars;
 	color: #fff;
-	font-size: 24px;
-	margin-top:2px;
+	//font-size: 24px;
+	//margin-top:2px;
+	font-size: 28px;
+	vertical-align: middle;
+	margin-right: 8px;
 }
 
 ///////////////////////////////////////////////////////////////
@@ -100,7 +120,11 @@ $sc-sidebar-size: 246px;
 .header-right-menu {
 	float: right;
 	//margin-top: ($sc-main-nav-height - $sc-main-nav-link-height) / 2;
-	margin-bottom: ($sc-main-nav-height - $sc-main-nav-link-height) / 2;
+	//margin-bottom: ($sc-main-nav-height - $sc-main-nav-link-height) / 2;
+
+	@media (max-width: 359px) {
+		width: 100%;
+	}
 }
 
 .header-menu-profile,
@@ -153,7 +177,7 @@ $sc-sidebar-size: 246px;
 %header-link {
 	display: block;
 	min-width: $sc-target-size;
-	height: $sc-target-size;
+	//height: $sc-target-size;
 	line-height: $sc-target-size;
 	color: $sc-color-theme;
 	text-align: center;
@@ -214,10 +238,12 @@ $sc-sidebar-size: 246px;
 .header-menu-cart-icon {
 	@extend .fa;
 	@extend %fa-shopping-cart;
-	font-size: $sc-h3-font-size;
-	line-height: $sc-target-size;
+	//font-size: $sc-h3-font-size;
+	//line-height: $sc-target-size;
 	min-width: $sc-target-size;
 	color: $sc-color-theme-light;
+	font-size: 28px;
+	line-height: 28px;
 }
 
 .header-menu-settings-icon {

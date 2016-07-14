@@ -2,7 +2,7 @@
 .header-logo {
 	display: block;
 	line-height: $sc-main-nav-height;
-	width: $sc-main-nav-width;
+	//width: $sc-main-nav-width;
 	margin: 0 auto;
 
 	@media (min-width: $screen-sm-min) {
@@ -16,7 +16,16 @@
 
 	@media (max-width: $screen-sm-max) {
 		width: auto;
+	}
+
+	@media (min-width: 360px) and  (max-width: $screen-sm-max){
 		height: 50px;
+	}
+
+	@media (max-width: 359px) {
+		height: auto;
+		width: 100%;
+		padding: $sc-base-padding * 2;
 	}
 }
 

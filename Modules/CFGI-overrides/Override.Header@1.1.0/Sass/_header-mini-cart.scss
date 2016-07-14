@@ -123,6 +123,12 @@
 
 .header-mini-cart-menu-cart-link{
 	@extend .header-menu-cart-link;
+
+	@media (max-width: $screen-sm-max) {
+		padding: 20px 20px;
+		line-height: 28px;
+	}
+
 }
 
 .header-mini-cart-menu-cart-link-enabled{

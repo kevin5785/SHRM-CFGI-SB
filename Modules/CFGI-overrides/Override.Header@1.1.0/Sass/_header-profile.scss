@@ -148,7 +148,11 @@
 .header-menu-profile {
 	.header-site-search {
 		display: inline-block;
-		width: 260px;
+		width: 242px;
+
+		@media (min-width: $screen-lg) {
+			width: 260px;
+		}
 	}
 	.site-search-content {
 		width: 100%;

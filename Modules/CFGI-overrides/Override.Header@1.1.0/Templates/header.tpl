@@ -1,10 +1,3 @@
-{{!
-	© 2016 NetSuite Inc.
-	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
-	provided, however, if you are an authorized user with a NetSuite account or log-in, you
-	may use this code subject to the terms that govern your access and use.
-}}
-
 <div class="header-message" data-type="message-placeholder"></div>
 
 <div class="header-main-wrapper">
@@ -12,12 +5,6 @@
 	<nav class="header-main-nav">
 	
 		<div id="banner-header-top" class="content-banner banner-header-top" data-cms-area="header_banner_top" data-cms-area-filters="global"></div>
-		
-		<div class="header-sidebar-toggle-wrapper">
-			<button class="header-sidebar-toggle" data-action="header-sidebar-show">
-				<i class="header-sidebar-toggle-icon"></i>
-			</button>
-		</div>
 
 		<div class="header-content">
 			<div class="header-logo-wrapper">
@@ -48,11 +35,11 @@
 				</div>
 				{{/if}}
 
-				<div class="header-menu-searchmobile">
-					<button class="header-menu-searchmobile-link" data-action="show-sitesearch" title="{{translate 'Search'}}">
-						<i class="header-menu-searchmobile-icon"></i>
-					</button>
-				</div>
+                <div class="header-sidebar-toggle-wrapper">
+                    <button class="header-sidebar-toggle" data-action="header-sidebar-show">
+                        <i class="header-sidebar-toggle-icon"></i>Menu
+                    </button>
+                </div>
 
 				<div class="header-menu-cart">
 					<div class="header-menu-cart-dropdown" >
@@ -69,5 +56,3 @@
 <div class="header-sidebar-overlay" data-action="header-sidebar-hide"></div>
 <div class="header-secondary-wrapper" data-view="Header.Menu" data-phone-template="header_sidebar" data-tablet-template="header_sidebar" data-spy="affix" data-offset-top="155">
 </div>
-
-<div class="header-site-search" data-view="SiteSearch" data-type="SiteSearch"></div>
