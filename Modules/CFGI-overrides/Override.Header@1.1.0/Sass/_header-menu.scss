@@ -58,6 +58,11 @@
 
 .header-menu-level1 > li {
 	float: left;
+	width: 20%;
+
+	a {
+		text-align: center;
+	}
 }
 
 .header-menu-level1-anchor {

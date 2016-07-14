@@ -1,17 +1,10 @@
-{{!
-	© 2016 NetSuite Inc.
-	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
-	provided, however, if you are an authorized user with a NetSuite account or log-in, you
-	may use this code subject to the terms that govern your access and use.
-}}
-
 <nav class="header-menu-secondary-nav">
 
-	<div class="header-menu-search">
+	<!--<div class="header-menu-search">
 		<button class="header-menu-search-link" data-action="show-sitesearch" title="{{translate 'Search'}}">
 			<i class="header-menu-search-icon"></i>
 		</button>
-	</div>
+	</div>-->
 
 
 	<ul class="header-menu-level1">
