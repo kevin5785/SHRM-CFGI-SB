@@ -1,15 +1,9 @@
-/*
-	© 2016 NetSuite Inc.
-	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
-	provided, however, if you are an authorized user with a NetSuite account or log-in, you
-	may use this code subject to the terms that govern your access and use.
-*/
 
 $sc-main-nav-height: 68px;
 $sc-main-nav-width: 130px;
 $sc-main-nav-link-height: 44px;
 $sc-secondary-menu-height: /*55px*/ 75px;
-$sc-sidebar-size: 246px;
+$sc-sidebar-size: /*246px*/ 100%;
 
 .header-message {
 	@extend .container;

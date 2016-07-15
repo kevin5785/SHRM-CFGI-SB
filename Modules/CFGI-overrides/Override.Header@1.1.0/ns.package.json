@@ -17,11 +17,15 @@
         "suitecommerce/Header@1.1.0/Templates/header_profile.tpl": "Templates/header_profile.tpl",
         "suitecommerce/Header@1.1.0/Templates/header_menu.tpl": "Templates/header_menu.tpl",
         "suitecommerce/Header@1.1.0/Templates/header.tpl": "Templates/header.tpl",
+        "suitecommerce/Header@1.1.0/Templates/header_sidebar.tpl": "Templates/header_sidebar.tpl",
         "suitecommerce/Header@1.1.0/Sass/_header.scss": "Sass/_header.scss",
         "suitecommerce/Header@1.1.0/Sass/_header-profile.scss": "Sass/_header-profile.scss",
         "suitecommerce/Header@1.1.0/Sass/_header-menu.scss": "Sass/_header-menu.scss",
         "suitecommerce/Header@1.1.0/Sass/_header-logo.scss": "Sass/_header-logo.scss",
         "suitecommerce/Header@1.1.0/Sass/_header-mini-cart.scss": "Sass/_header-mini-cart.scss",
+        "suitecommerce/Header@1.1.0/Sass/_header-sidebar.scss": "Sass/_header-sidebar.scss",
+        "suitecommerce/Header@1.1.0/Sass/_header.scss": "Sass/_header.scss",
+        "suitecommerce/Header@1.1.0/JavaScript/Header.Menu.View.js": "JavaScript/Header.Menu.View.js",
         "suitecommerce/Header@1.1.0/JavaScript/Header.Profile.View.js": "JavaScript/Header.Profile.View.js"
     }
 }

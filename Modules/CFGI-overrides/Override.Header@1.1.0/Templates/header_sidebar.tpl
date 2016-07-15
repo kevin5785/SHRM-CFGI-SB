@@ -1,12 +1,10 @@
-{{!
-	© 2016 NetSuite Inc.
-	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
-	provided, however, if you are an authorized user with a NetSuite account or log-in, you
-	may use this code subject to the terms that govern your access and use.
-}}
 
 <div class="header-sidebar-wrapper">
-	<div data-view="Header.Profile"></div>
+	<!--<div data-view="Header.Profile"></div>-->
+	<div class="sidebar-search-wrapper">
+        <div class="header-site-search" data-view="SiteSearch" data-type="SiteSearch"></div>
+        <i data-action="header-sidebar-hide" class="close-sidebar"></i>
+	</div>
 	
 	<div class="header-sidebar-menu-wrapper" data-type="header-sidebar-menu">
 

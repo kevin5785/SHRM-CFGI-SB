@@ -6,7 +6,7 @@
 				<a class="site-search-input-reset" data-type="search-reset"><i class="site-search-input-reset-icon"></i></a>
             </div>
             <button class="site-search-button-submit" type="submit"><i class="site-search-input-icon"></i></button>
-            <a href="#" class="site-search-button-close" data-action="hide-sitesearch">{{translate 'Close'}}</a>
+            <!--<a href="#" class="site-search-button-close" data-action="hide-sitesearch">{{translate 'Close'}}</a>-->
         </form>
     </div>
 </div>

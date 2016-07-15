@@ -1,9 +1,3 @@
-/*
-	© 2016 NetSuite Inc.
-	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
-	provided, however, if you are an authorized user with a NetSuite account or log-in, you
-	may use this code subject to the terms that govern your access and use.
-*/
 
 // @module Header
 define(
@@ -15,6 +9,7 @@ define(
 	,	'Header.Menu.MyAccount.View'
 	,	'GlobalViews.HostSelector.View'
 	,	'GlobalViews.CurrencySelector.View'
+	,	'SiteSearch.View'
 	
 	,	'header_menu.tpl'
 
@@ -30,6 +25,7 @@ define(
 	,	HeaderMenuMyAccountView
 	,	GlobalViewsHostSelectorView
 	,	GlobalViewsCurrencySelectorView
+	,	SiteSearchView
 
 	,	header_menu
 
@@ -76,6 +72,10 @@ define(
 		,	'Global.CurrencySelector': function ()
 			{
 				return new GlobalViewsCurrencySelectorView();
+			}
+		,	'SiteSearch': function()
+			{
+				return new SiteSearchView();
 			}
 		}
 
